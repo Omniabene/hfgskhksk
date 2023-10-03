@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#CS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#CS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#multiplayer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#shooter"/>
+        <rdfs:label>Контер страйк</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#GMM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#GMM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#singleplayer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#strategy"/>
+        <rdfs:label>Герои_меча_и_магии</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game">
+        <rdfs:label>Игра</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#genre"/>
+        <rdfs:label>Экшен</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#dota2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#dota2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#multiplayer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#strategy"/>
+        <rdfs:label>Дота 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#fifa_22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#fifa_22">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#sportive"/>
+        <rdfs:label>Фифа_22</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#genre">
+        <rdfs:label>Жанр</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#gta_5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#gta_5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#action"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#multiplayer"/>
+        <rdfs:label>Гта 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#magical_world -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#magical_world">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#role_playing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#singleplayer"/>
+        <rdfs:label>Волшебный мир</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#mode">
+        <rdfs:label>Режим</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#morrowind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#morrowind">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#role_playing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#singleplayer"/>
+        <rdfs:label>Морровинд</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#multiplayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#multiplayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#mode"/>
+        <rdfs:label>Многопользовательская</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#role_playing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#role_playing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#genre"/>
+        <rdfs:label>Ролевая</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#shooter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#shooter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#genre"/>
+        <rdfs:label>Шутер</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#singleplayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#singleplayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#mode"/>
+        <rdfs:label>Одиночная</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#sportive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#sportive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#genre"/>
+        <rdfs:label>Спортивная</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#genre"/>
+        <rdfs:label>Стратегия</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#tetris -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#tetris">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/8/untitled-ontology-2#singleplayer"/>
+        <rdfs:label>Тетрис</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
